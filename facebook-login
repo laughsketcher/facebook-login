@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log in or Sign up</title>
+    <link rel="stylesheet" href="facebook-login.css">
+</head>
+<body>
+
+    <div id="container">
+
+    
+    <div id="header">
+        <header id="post-head">
+            <img src="../programing folder/facebook.png" alt="">
+        </header>
+    </div>
+
+    <div id="intro">
+        <p>Facebook helps you connect and share <br>
+             with the people in your life.</p>
+    </div>
+
+    <div id="margin">
+        <div id="form-container">
+            <div id="form">
+                <form action="">
+                    <input type="text" id="primary" placeholder="Phone number or email address"><br>
+                    <input type="password" id="secondary" placeholder="Password"><br>
+                    <button type="submit">Log in</button>
+                </form>
+                <p id="forgot"><a href="">Forgotten password?</a></p>
+            </div>
+    
+            <a href=""><button id="create">Create Account</button></a>
+        </div>
+
+        <p id="page"><strong><a href="">Create a Page</a> </strong>for a celebrity, brand or business</p>
+
+    </div>
+
+</div>
+
+    <div id="footer">
+        <footer id="foot">
+            <div id="language">
+                <ul>
+                    <li><a href="">English(UK)</a></li>
+                    <li><a href="">Hausa</a></li>
+                    <li><a href="">Francias(France)</a></li>
+                    <li><a href="">Portuguese(Brazil)</a></li>
+                    <li><a href="">Espanol</a></li>
+                    <li><a href="">Arabic</a></li>
+                    <li><a href="">Bahasa Indonesia</a></li>
+                    <li><a href="">Deutch</a></li>
+                    <li><a href="">Chinese</a></li>
+                    <li><a href="">Italiano</a></li>
+                    <li id="plus"><a href=""><button>+</button></a></li>
+                </ul>
+            </div>
+            
+            <div id="extras">
+                <ul>
+                    <div id="first">
+                        <li><a href="">Sign Up </a></li>
+                        <li><a href="">Log In </a></li>
+                        <li><a href="">Messenger </a></li>
+                        <li><a href="">Facebook Lite </a></li>
+                        <li><a href="">Video </a></li>
+                        <li><a href="">Places </a></li>
+                        <li><a href="">Games </a></li>
+                        <li><a href="">Market Place </a></li>
+                        <li><a href="">Meta Pay </a></li>
+                        <li><a href="">Meta Store </a></li>
+                        <li><a href="">Meta Quest </a></li>
+                        <li><a href="">Imagine with Meta AI </a></li>
+                        <li><a href="">Instagram </a></li><br>
+                    </div>
+
+                    <div id="second">
+                        <li><a href="">Threads </a></li>
+                        <li><a href="">Fundraisers </a></li>
+                        <li><a href="">Services </a></li>
+                        <li><a href="">Voting Information Centre</a></li>
+                        <li><a href="">Privacy Policy </a></li>
+                        <li><a href="">Privacy Centre </a></li>
+                        <li><a href="">Groups </a></li>
+                        <li><a href="">About </a></li>
+                        <li><a href="">Create ad </a></li>
+                        <li><a href="">Create Page </a></li>
+                        <li><a href="">Developer </a></li>
+                        <li><a href="">Careers </a></li><br>
+                    </div>
+                    <div id="third">
+                        <li><a href="">Cookies </a></li>
+                        <li><a href="">AdChoices </a></li>
+                        <li><a href="">Terms </a></li>
+                        <li><a href="">Help </a></li>
+                        <li><a href="">Contact uploading and non users </a></li><br>
+                    </div>
+
+                </ul>
+            </div>
+
+            <p id="copyright">Meta &copy; 2024</p>
+        </footer>
+    </div>
+    
+    
+    
+</body>
+</html>
