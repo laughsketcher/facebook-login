@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    border: #aaa;
+}
+
+#post-head img{
+    height: 5%;
+    width: 25%;
+    margin-top: 100px;
+    position: relative;
+    top: 160px;
+}
+
+#intro{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+form{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+}
+
+div#margin{
+   display: flex;
+   flex-direction: column;
+   margin-left: 65%;
+}
+
+#intro{
+    position: relative;
+    top: 180px;
+    font-family: Helvetica, sans-serif;
+}
+
+div#form-container{
+    object-position: right;
+    background-color: white;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 3px #d1cccc;
+    margin-bottom: 20px;
+}
+
+p#page{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+strong a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+strong a:hover{
+    text-decoration: underline;
+}
+
+input[type="text"],
+[type="password"]{
+    width: 280px;
+    appearance: none;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px #aaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"],
+[type="password"]:defined{
+    width: 280px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #aaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button[type="submit"]{
+    width: 301px;
+    background-color: rgb(63, 63, 247);
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(110, 110, 243);
+}
+
+p#forgot{
+    color: rgb(63, 63, 247);
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#forgot a:link{
+    color: rgb(63, 63, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+}
+
+#forgot a:hover{
+    text-decoration: underline;
+}
+
+button#create{
+    background-color: rgb(10, 199, 10);
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 50px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+button#create:hover{
+    background-color: rgb(14, 146, 14);
+}
+
+#form{
+    border-bottom: solid 1px #d4d0d0;
+    border-radius: 2px;
+}
+
+#footer{
+    margin-top: 9%;
+    color: #aaa;
+    background-color: rgb(255, 249, 249);
+    padding: 20px 180px 30px;
+}
+
+#footer #foot #language{
+    border-bottom: solid 1px #aaa;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 12.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+#language ul li a{
+    text-decoration: none;
+    padding-right: 5px;
+    color: #aaa;
+}
+
+#language ul li a:hover{
+    text-decoration: underline;
+}
+
+#extras ul li{
+    margin-bottom: 15px;
+    font-size: 12.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+#extras ul li a:link{
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+#extras ul li a:hover{
+    text-decoration: underline;
+}
+
+#extras{
+    margin-bottom: 30px;
+}
+
+div#first a{
+    padding-bottom: 7px;
+    color: #aaa;
+}
+
+div#second a{
+    padding-bottom: 7px;
+    color: #aaa;
+}
+
+div#third a{
+    padding-bottom: 2px;
+    color: #aaa;
+}
+
+li#plus a button{
+    background-color: #dad9d9;
+    border: solid 1px black;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Helvetica;
+    width: 3%;
+    margin-bottom: -10px;
+    height: 20px;
+    text-align: center;
+}
+
+li#plus a button:hover{
+    background-color: #aaa;
+}
